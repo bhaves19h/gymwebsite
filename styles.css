@@ -8,6 +8,7 @@
 }
 
 body {
+	scroll-behavior: smooth;
 	font-family: sans-serif;
 	font-size: 16px;
 	font-weight: normal;
@@ -25,7 +26,7 @@ header {
     display: flex;
     align-items: center; /* Align items vertically in the center */
     justify-content: space-between; /* Space between logo and navigation */
-    padding: 10px 10px; /* Optional: Add some padding around the header */
+    padding: 20px 20px; /* Optional: Add some padding around the header */
     background-color: #000000; /* Optional: Background color for the header */
 	
 }
@@ -182,7 +183,7 @@ hero-image-2 {
 	position: static;
 	z-index: 10;
 	display: block;
-	margin-top: -600px;
+	margin-top: -550px;
 	margin-bottom: 30px;
 	align-items: flex-start;
 	font-size: 35px;
@@ -253,7 +254,7 @@ hero-image-2 {
     position: absolute;
     right: -520px;
     /* bottom: 00px; */
-    top: 335px;
+    top: 350px;
     padding: 620px;
 }
 
@@ -386,7 +387,7 @@ h2 {
 .who-we-wre-text-wrapper {
 	position: relative;
     width: 70%;
-	font-size: 25px;
+	font-size: 20px;
     padding-left: 280px;
   /*  padding-top: -220px;*/
     color: #cfcfcf;
@@ -398,13 +399,13 @@ h2 {
 }
 .who-we-are-image-wrapper {
     position: absolute;
-    width: 520px;
-    height: 9%;
+    width: 500px;
+    height: 7.5%;
     /* float: left; */
     background-image: url(https://uploads-ssl.webflow.com/5d1dfaf3fdd1ef7aa068c605/5de8b15f06da4229b47e80b4_Video-1%402x.jpg);
     /* background-position: 50% 50%; */
     background-size: cover;
-    top: 1280px;
+    top: 1230px;
     margin-left: 100px;
     padding-left: -40px;
     background-repeat: no-repeat;
@@ -440,7 +441,7 @@ h2 {
 }
 
 .card {
-    margin-left: 95px;
+    margin-left: 60px;
     padding: 10px;
 }
 img#trainer1 {
@@ -454,7 +455,7 @@ img#trainer3 {
 }
 img#trainer4 {
     width: 205px;
-    margin-left: -20px;
+  
 }
 .img{
 	border-radius: 3px;
@@ -462,7 +463,7 @@ img#trainer4 {
 .teamimage{
 	display: flex;
 	position: relative;
-	bottom: -45px;
+	bottom: -4px;
 
 
 }
@@ -472,6 +473,7 @@ img#trainer4 {
 	overflow: hidden;
 }
 .card:hover{
+	background-color: gainsboro;
 
 }
 
@@ -670,7 +672,7 @@ img#trainer4 {
     top: 160px;
     font-size: 45px;
     font-weight: bold;
-    left: -220px;
+    left: -280px;
     COLOR: white;
     padding-top: 0px;
     padding-bottom: 90px;
@@ -681,7 +683,7 @@ img#trainer4 {
     color: #fbf5f557;
     font-weight: bolder;
     font-size: 70px;
-    margin-left: -320px;
+    margin-left: -380px;
 }
 
 /*membership section*/
@@ -739,7 +741,7 @@ h2 {
     text-align: center;
 }
 .content {
-    height: 1500px; /* Just to simulate scrolling */
+    height: 800px; /* Just to simulate scrolling */
     padding-top: 60px;
 }
 
@@ -928,8 +930,8 @@ img {
 }
 
 .hero header {
-	padding: 30px 0 15px 11px;
-	padding-bottom: 15px;
+	padding: 20px 10px 15px 11px;
+	padding-bottom: 25px;
 }
 
 .hero header .container {
@@ -991,6 +993,7 @@ img {
 }
 
 .hero header nav ul li.action a:hover {
+    background-color: gainsboro;
 
 }
 
@@ -1086,48 +1089,7 @@ img {
 		font-size: 36px;	
 	}
 
-	.hamb {
-		width: 40px;
-		height: 30px;
-		cursor: pointer;
-		position: absolute;
-		top: 44px;
-		right: 2%;
-		z-index: 5;
-	}
 	
-	.hamb span {
-		display: block;
-		width: 100%;
-		height: 3px;
-		background: #ffffff;
-		opacity: 1;
-		transition-duration: .3s;
-		transition-property: opacity transform top bottom;
-	}
-	
-	.hamb span:nth-child(2) {
-		margin: 7px 0px;
-	}
-	
-	.hamb.click span {		
-		position: absolute;
-		top: 10px;
-	}
-
-	.hamb.click span:nth-child(2) {
-		opacity: 0;
-	}
-
-	.hamb.click span:nth-child(1) {
-		transform: rotate(-40deg);
-		top: 12px;
-	}
-
-	.hamb.click span:nth-child(3) {
-		transform: rotate(40deg);
-		top: 12px;
-	}
 
 	.hero .menu-overlay {
 		position: fixed;
@@ -1212,3 +1174,4 @@ img {
 		transition: .5s transform;
 	}	
 }
+
