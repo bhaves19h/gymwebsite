@@ -1,10 +1,12 @@
-const hamb = document.querySelector(".hamb");
+//const hamb = document.querySelector(".hamb");
 const navList = document.querySelector(".menu-overlay");
 
-hamb.addEventListener("click", function() {
-	navList.classList.toggle("active");
-	hamb.classList.toggle("click");
-})
+//hamb.addEventListener("click", function() {
+//	navList.classList.toggle("active");
+//	hamb.classList.toggle("click");
+//})
+
+
 document.addEventListener("scroll", function() {
     const elements = document.querySelectorAll(".animate-on-scroll");
 
